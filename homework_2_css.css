@@ -1,0 +1,78 @@
+* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: inter;
+}
+.header {
+  padding: 37px 120px 35px;
+}
+.logo,
+.menu,
+button,
+.menu-item {
+  display: inline-block;
+}
+.menu {
+  width: 70%;
+  text-align: center;
+}
+
+.button,
+.logo {
+  width: 14%;
+}
+.menu-item {
+  margin-right: 20px;
+}
+.menu-item:last-child {
+  margin-right: 0;
+}
+.button {
+  font-family: inherit;
+  border: none;
+  background: #0e1734;
+  padding: 14px 15px;
+  color: white;
+  border-radius: 4px;
+}
+.logo {
+  font-size: 32px;
+  font-weigh: bold;
+}
+.main {
+  height: 850px;
+  padding: 80px 120px;
+    }
+.text,
+.image{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    }
+.image {
+ text-align: right;
+}
+.text {
+  margin-top: 25%;
+   }
+   /*Не понимаю, почему блок с классом text ушел сильно вниз. Где конфликт*/
+ .text h2 {
+   color: #192252;
+   margin-bottom: 24px;
+   font-size: 48px;
+   font-family: montserrat;
+   line-height: 72px;
+  }
+.text p {
+  color: #848FAC;
+  font-size: 18px;
+  line-height: 27px;
+}
+.text button {
+  margin-top: 48px;
+  width: 150px;
+  height: 50px;
+}
